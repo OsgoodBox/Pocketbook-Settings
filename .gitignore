@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight and metadata
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# AFP network files
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# macOS volume info
+.VolumeIcon.icns
+.com.apple.timemachine.supported
+
+# Resource forks (hidden metadata)
+**/._*
+
+# macOS-generated archives
+*.icloud
+
+# Any temp configs you generate
+*.bak
+*.backup
+*.old
+*.orig
