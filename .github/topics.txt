@@ -1,0 +1,15 @@
+pocketbook
+ereader
+epub
+cfg
+ebook-reader
+pocketbook-era
+pocketbook-settings
+ebook-formatting
+margins
+linespacing
+calibre
+css
+KOReader
+Kobo
+Kindle
