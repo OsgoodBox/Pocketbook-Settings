@@ -1,10 +1,14 @@
 # 📘 Pocketbook Settings Profiles
-A collection of custom configuration profiles for PocketBook e-readers (ERA, Verse, Touch Lux, InkPad, etc.).
-Each profile contains tuned margins.cfg and linespacing.cfg files designed to mimic different reading environments (Kindle, Kobo, KOReader, and a balanced “Normal” preset).
+- A collection of custom configuration profiles for PocketBook e-readers (ERA, Verse, Touch Lux, InkPad, etc.).
+	Each profile contains tuned margins.cfg and linespacing.cfg files designed to mimic different reading environments (Kindle, Kobo, KOReader, and a balanced “Normal” preset).
 
-These profiles allow you to swap global PocketBook text rendering styles instantly by replacing the config files in system/reader/.
+	These profiles allow you to swap global PocketBook text rendering styles instantly by replacing the config files in system/reader/.
 
-No firmware modification or third-party tools required.
+	No firmware modification or third-party tools required.
+
+- Additionally, there is an optional bash script to apply these changes automatically.
+
+- A stylesheet.css, to apply to books in Calibre, whose default formatting is less than ideal, and ignores any changes you might apply within the Pocketbook app or KOReader.
 
 
 ## 📁 Folder Structure
