@@ -70,7 +70,8 @@ Your original PocketBook config files — use these if you ever need to restore 
 1. Connect your PocketBook to your computer via USB.
 2. Open the device’s storage.
 3. Navigate to:
-```system/reader/
+```
+system/reader/
 ```
 
 4. Backup the existing files (optional but recommended):
@@ -99,7 +100,7 @@ Your new global reading layout will now be active for all EPUBs.
 ---
 
 ## 🔒 Safe Editing Notes
-- PocketBook .cfg files do not support comments (#, //, etc.).
+- PocketBook `.cfg` files do not support comments (#, //, etc.).
 - Do not delete unused keys (e.g., *-panel, *-pager), or the device may revert settings to defaults.
 - Percentages (%) represent screen-relative margins/line heights, not CSS units.
 - Changes require a device reboot to take effect.
@@ -183,15 +184,18 @@ If these paths are wrong:
 1. Copy the script into your repo
 
 Save the script from this repo as:
-```pb-profile.sh
+```
+pb-profile.sh
 ```
 
 and make it executable:
-```chmod +x pb-profile.sh
+```
+chmod +x pb-profile.sh
 ```
 
 You can run it directly:
-```./pb-profile.sh
+```
+./pb-profile.sh
 ```
 
 ### 🚀 Optional: Install the script system-wide
