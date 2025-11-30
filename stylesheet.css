@@ -1,0 +1,30 @@
+/* Minimal clean CSS for PocketBook global settings */
+
+/* Indent only (PocketBook can't set this globally) */
+p {
+    text-indent: 1.2em;
+}
+
+/* Don't indent after headings */
+h1 + p,
+h2 + p,
+h3 + p {
+    text-indent: 0;
+}
+
+/* Headings spacing (safe to include) */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.4em;
+    margin-bottom: 0.7em;
+    text-indent: 0;
+    font-weight: bold;
+}
+
+/* Images safe handling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
